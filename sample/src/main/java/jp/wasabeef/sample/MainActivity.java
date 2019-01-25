@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
         mEditor.setHeading(6);
       }
     });
-
+// todo
     findViewById(R.id.action_txt_color).setOnClickListener(new View.OnClickListener() {
       private boolean isChanged;
 
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
         isChanged = !isChanged;
       }
     });
-
+// todo
     findViewById(R.id.action_bg_color).setOnClickListener(new View.OnClickListener() {
       private boolean isChanged;
 
@@ -183,19 +183,20 @@ public class MainActivity extends AppCompatActivity {
         mEditor.setNumbers();
       }
     });
-
+// todo
     findViewById(R.id.action_insert_image).setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
-        mEditor.insertImage("http://www.1honeywan.com/dachshund/image/7.21/7.21_3_thumb.JPG",
+        mEditor.insertImage("",
             "dachshund");
       }
     });
-
+// todo
     findViewById(R.id.action_insert_link).setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
         mEditor.insertLink("https://github.com/wasabeef", "wasabeef");
       }
     });
+
     findViewById(R.id.action_insert_checkbox).setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
         mEditor.insertTodo();
